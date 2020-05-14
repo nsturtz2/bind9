@@ -1,0 +1,24 @@
+;
+; BIND reverse data file for local 192.168.1.XXX net
+;
+$TTL    604800
+@	IN	SOA	ns.sturtz.ml. root.sturtz.ml. (
+			4
+			604800
+			86400
+			2419200
+			604800 )
+;
+@       IN      NS      ns.
+14.0.168.192.in-addr.arpa.	IN	PTR	ns.80.80.80.80.
+$TTL    604800
+@       IN      SOA     ns.gtron.ml. root.gtron.ml. (
+                        4
+                        604800
+                        86400
+                        2419200         
+                        604800 )
+;
+@       IN      NS      ns.
+14.0.168.192.in-addr.arpa.      IN      PTR     ns.80.80.80.80.
+
